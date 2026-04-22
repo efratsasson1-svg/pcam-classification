@@ -1,0 +1,21 @@
+__pycache__
+.pyc
+
+# data
+.h5
+.zip
+pcamv1
+
+# outputs
+outputs
+.pt
+.json
+
+# IDE
+.spyderproject
+.spyproject
+.vscode
+
+# OS
+.DS_Store
+Thumbs.db
