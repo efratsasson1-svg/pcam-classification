@@ -46,22 +46,25 @@ We compare three approaches:
 ├── print_Confusion_Matrix.py # evaluation utilities
 ├── README.md
 
-## 🚀 How to Run
+## How to Run
 
 1. Install dependencies:
+
 ```bash
 pip install torch torchvision timm scikit-learn matplotlib seaborn
-
+```
 Prepare dataset (PCam)
 Run training:
+```bash
 python pcam_foundation_train.py
+```
+Evaluation
 
-📈 Evaluation
 AUC (primary metric)
 Accuracy
 Confusion matrix visualization
-
 Notes
+
 Dataset is not included in the repository
 Outputs and checkpoints are excluded via .gitignore
 
