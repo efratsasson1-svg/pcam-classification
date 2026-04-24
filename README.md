@@ -32,19 +32,20 @@ We compare three approaches:
 
 ## Results
 
-| Model | Test AUC |
-|------|---------|
-| ResNet18 | ~0.93 |
-| Phikon-v2 | ~0.72 |
-| DINO ViT-S | **~0.94–0.95** |
+
+| Model        | Val AUC | Test AUC | Test Accuracy |
+|-------------|--------|---------|---------------|
+| ResNet18     | ~0.93  | ~0.93   | ~0.85         |
+| Phikon-v2    | ~0.72  | ~0.72   | ~0.69         |
+| DINO ViT-S   | 0.959  | **0.966** | **0.889**     |
 
 ---
 
 ##  Project Structure
-pcam_foundation_train.py - training pipeline  
-PyTorch_Dataset.py - dataset loader  
-print_Confusion_Matrix.py - evaluation utilities  
-README.md  
+- pcam_foundation_train.py - training pipeline  
+- PyTorch_Dataset.py - dataset loader  
+- print_Confusion_Matrix.py - evaluation utilities  
+- README.md  
 
 ## How to Run
 
