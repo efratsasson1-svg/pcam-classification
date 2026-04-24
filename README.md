@@ -58,16 +58,23 @@ Run training:
 ```bash
 python pcam_foundation_train.py
 ```
+
+---
+
 Evaluation
 
 AUC (primary metric)
 Accuracy
 Confusion matrix visualization
+
+---
+
 Notes
 
 Dataset is not included in the repository
 Outputs and checkpoints are excluded via .gitignore
 
+---
 Author
 
 Efrat Sasson
