@@ -61,7 +61,7 @@ python pcam_foundation_train.py
 
 ---
 
-Evaluation
+## Evaluation
 
 AUC (primary metric)
 Accuracy
@@ -69,12 +69,12 @@ Confusion matrix visualization
 
 ---
 
-Notes
+## Notes
 
 Dataset is not included in the repository
 Outputs and checkpoints are excluded via .gitignore
 
 ---
-Author
+## Author
 
 Efrat Sasson
