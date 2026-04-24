@@ -41,10 +41,10 @@ We compare three approaches:
 ---
 
 ##  Project Structure
-pcam_foundation_train.py - training pipeline
-PyTorch_Dataset.py - dataset loader
-print_Confusion_Matrix.py - evaluation utilities
-README.md
+pcam_foundation_train.py - training pipeline  
+PyTorch_Dataset.py - dataset loader  
+print_Confusion_Matrix.py - evaluation utilities  
+README.md  
 
 ## How to Run
 
